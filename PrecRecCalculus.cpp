@@ -119,6 +119,7 @@ void PrecRecCalculus::loadData2(){
 void PrecRecCalculus::calculate(){
     int n1=reader1->getNbrObjs();
     int n2=reader2->getNbrObjs();
+	
 	for(int i=0;i<n1;i++){
 		//meanprec[i]=0;
 	       //meanrec[i]=0;
@@ -215,9 +216,9 @@ void PrecRecCalculus::processranking(trifloat * rank, int cattarget){
                        precision[rec][0]+=prec; //adds precision value
 		       precision[rec][1]++; //adds precision counter
 		       //printf("\nknn=%d,prec=%d,rec=%d",knn,prec,rec);
-                 }
         }
-  }
+    }
+}
 
 
 

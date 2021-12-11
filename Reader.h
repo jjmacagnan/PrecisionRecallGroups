@@ -8,7 +8,7 @@
 /*max number of characteres of a line of image features*/
 #define LINETAM 10000
 /*max number of atributes of a line of image features*/
-#define MAX 400
+#define MAX 512
 /*max number of characteres in a float number of a image feature*/
 #define PRECISION 12
 #include<stdlib.h>

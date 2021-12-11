@@ -31,6 +31,7 @@ int main(int argc, char * argv[]){
 	printf("\n%s",format);
 	Reader * reader1 = new Reader(filename1,nrocols,format);
 	Reader * reader2 = new Reader(filename2,nrocols,format);
+	
 	//See if database was read correctly
     FILE * fa1 = fopen("datasel1.txt","w");
     FILE * fa2 = fopen("datasel2.txt","w");
